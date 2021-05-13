@@ -1,0 +1,20 @@
+*this cmd use when u want saved in private*
+git init
+git add .
+git commit -m "enter name"
+git status
+git push origin master
+ssh-keygen -t rsa -b 4096 -C "sbhupendra6774@gmail.com" copy public key has been saved "######"
+cat paste public key here at u copy from before
+git push origin master "this cmd to push in github"
+
+*this cmd use to saved in public*
+git init
+git add .
+git status
+git commit -m "enter name"
+git remote add origin "link paste"
+git push -u origin master
+
+
+
